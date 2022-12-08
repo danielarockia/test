@@ -10,8 +10,8 @@ spec:
   helm:
    valueFiles: ['cluster-autoscaler-values.yaml']
    
-   chartVersion: 9.21.0
-   chart: cluster-autoscaler
+  chartVersion: 9.21.0
+  chart: cluster-autoscaler
  destination:
     namespace: default
     server: https://kubernetes.default.svc
